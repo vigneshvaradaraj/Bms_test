@@ -1,0 +1,93 @@
+VERSION ""
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+	BO_TX_BU_
+	BA_DEF_REL_
+	BA_REL_
+	BA_DEF_DEF_REL_
+	BU_SG_REL_
+	BU_EV_REL_
+	BU_BO_REL_
+	SG_MUL_VAL_
+
+BS_:
+
+BU_: BMS VCU
+
+
+BO_ 848 BMS_PackStatus: 8 BMS
+ SG_ PackVoltage : 0|16@1+ (0.01,0) [0|655.35] "V"  VCU
+ SG_ PackCurrent : 16|16@1- (0.1,0) [-3276.8|3276.7] "A"  VCU
+ SG_ SOC : 32|8@1+ (0.5,0) [0|127.5] "%"  VCU
+ SG_ BMS_State : 40|4@1+ (1,0) [0|15] ""  VCU
+ SG_ AliveCounter : 44|4@1+ (1,0) [0|15] ""  VCU
+ SG_ CRC : 56|8@1+ (1,0) [0|255] ""  VCU
+
+BO_ 849 BMS_Limits: 8 BMS
+ SG_ CCL : 0|16@1+ (0.1,0) [0|6553.5] "A"  VCU
+ SG_ DCL : 16|16@1+ (0.1,0) [0|6553.5] "A"  VCU
+ SG_ ChargeVoltageReq : 32|16@1+ (0.01,0) [0|655.35] "V"  VCU
+ SG_ ChargeEnable : 48|1@1+ (1,0) [0|1] ""  VCU
+ SG_ AliveCounter : 52|4@1+ (1,0) [0|15] ""  VCU
+ SG_ CRC : 56|8@1+ (1,0) [0|255] ""  VCU
+
+BO_ 850 BMS_CellStats: 8 BMS
+ SG_ Vmax : 0|16@1+ (1,0) [0|65535] "mV"  VCU
+ SG_ Vmin : 16|16@1+ (1,0) [0|65535] "mV"  VCU
+ SG_ VmaxIdx : 32|8@1+ (1,0) [0|255] ""  VCU
+ SG_ VminIdx : 40|8@1+ (1,0) [0|255] ""  VCU
+ SG_ Tmax : 48|8@1+ (1,-40) [-40|215] "degC"  VCU
+ SG_ Tmin : 56|8@1+ (1,-40) [-40|215] "degC"  VCU
+
+BO_ 852 BMS_Faults: 8 BMS
+ SG_ FaultBits : 0|32@1+ (1,0) [0|4294970000] ""  VCU
+ SG_ WarningBits : 32|16@1+ (1,0) [0|65535] ""  VCU
+ SG_ NumActiveDTC : 48|8@1+ (1,0) [0|255] ""  VCU
+
+BO_ 512 VCU_Command: 8 VCU
+ SG_ ContactorReq : 0|2@1+ (1,0) [0|3] ""  BMS
+ SG_ BalancingEnable : 2|1@1+ (1,0) [0|1] ""  BMS
+ SG_ SleepReq : 3|1@1+ (1,0) [0|1] ""  BMS
+ SG_ FaultClearReq : 4|1@1+ (1,0) [0|1] ""  BMS
+ SG_ AliveCounter : 52|4@1+ (1,0) [0|15] ""  BMS
+ SG_ CRC : 56|8@1+ (1,0) [0|255] ""  BMS
+
+
+
+CM_ BO_ 852 "Cyclic 1000 ms and additionally sent on change";
+CM_ BO_ 512 "Cyclic 100 ms, receiver timeout 300 ms";
+CM_ SG_ 512 ContactorReq "0 = open, 1 = close, 2/3 = invalid";
+BA_DEF_ BO_  "GenMsgCycleTime" INT 0 65535;
+BA_DEF_ BO_  "GenMsgSendType" ENUM  "Cyclic","CyclicAndOnChange";
+BA_DEF_DEF_  "GenMsgCycleTime" 0;
+BA_DEF_DEF_  "GenMsgSendType" "Cyclic";
+BA_ "GenMsgCycleTime" BO_ 848 100;
+BA_ "GenMsgCycleTime" BO_ 849 100;
+BA_ "GenMsgCycleTime" BO_ 850 500;
+BA_ "GenMsgSendType" BO_ 852 1;
+BA_ "GenMsgCycleTime" BO_ 852 1000;
+BA_ "GenMsgCycleTime" BO_ 512 100;
+VAL_ 849 ChargeEnable 1 "Enabled" 0 "Disabled" ;
+VAL_ 512 ContactorReq 3 "Invalid" 2 "Invalid" 1 "Close" 0 "Open" ;
+

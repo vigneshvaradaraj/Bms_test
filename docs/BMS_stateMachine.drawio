@@ -1,0 +1,99 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="rsAbbYXHBQlxZkr9EPkX">
+    <mxGraphModel dx="774" dy="497" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="u2pnZ5xjiEZJuhU3ugR--9" edge="1" parent="1" source="u2pnZ5xjiEZJuhU3ugR--1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="u2pnZ5xjiEZJuhU3ugR--2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u2pnZ5xjiEZJuhU3ugR--1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;color: rgb(187, 190, 191); background-color: rgb(18, 19, 20); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #79c0ff;&quot;&gt;INIT_STATE&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="u2pnZ5xjiEZJuhU3ugR--10" edge="1" parent="1" source="u2pnZ5xjiEZJuhU3ugR--2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="u2pnZ5xjiEZJuhU3ugR--6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u2pnZ5xjiEZJuhU3ugR--11" edge="1" parent="1" source="u2pnZ5xjiEZJuhU3ugR--2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="u2pnZ5xjiEZJuhU3ugR--7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u2pnZ5xjiEZJuhU3ugR--16" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="190" as="sourcePoint" />
+            <mxPoint x="350" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u2pnZ5xjiEZJuhU3ugR--30" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="u2pnZ5xjiEZJuhU3ugR--4">
+          <mxGeometry relative="1" x="0.0378" as="geometry">
+            <Array as="points">
+              <mxPoint x="395" y="170" />
+              <mxPoint x="630" y="170" />
+              <mxPoint x="630" y="380" />
+            </Array>
+            <mxPoint x="395" y="120" as="sourcePoint" />
+            <mxPoint x="690" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u2pnZ5xjiEZJuhU3ugR--2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;color: rgb(187, 190, 191); background-color: rgb(18, 19, 20); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #79c0ff;&quot;&gt;STAND_BY_STATE&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="u2pnZ5xjiEZJuhU3ugR--24" edge="1" parent="1" source="u2pnZ5xjiEZJuhU3ugR--3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="u2pnZ5xjiEZJuhU3ugR--2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u2pnZ5xjiEZJuhU3ugR--3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&#xa;&lt;div style=&quot;color: #bbbebf;background-color: #121314;font-family: Consolas, &#39;Courier New&#39;, monospace;font-weight: normal;font-size: 14px;line-height: 19px;white-space: pre;&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #79c0ff;&quot;&gt;DRIVE_STATE&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&#xa;&#xa;" vertex="1">
+          <mxGeometry height="60" width="120" x="50" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="u2pnZ5xjiEZJuhU3ugR--23" edge="1" parent="1" source="u2pnZ5xjiEZJuhU3ugR--4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="u2pnZ5xjiEZJuhU3ugR--2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u2pnZ5xjiEZJuhU3ugR--4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;color: rgb(187, 190, 191); background-color: rgb(18, 19, 20); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #79c0ff;&quot;&gt;CHARGE_STATE&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="490" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="u2pnZ5xjiEZJuhU3ugR--5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;color: rgb(187, 190, 191); background-color: rgb(18, 19, 20); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #79c0ff;&quot;&gt;PRECHARGE_STATE&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="280" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="u2pnZ5xjiEZJuhU3ugR--20" edge="1" parent="1" source="u2pnZ5xjiEZJuhU3ugR--6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="u2pnZ5xjiEZJuhU3ugR--2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u2pnZ5xjiEZJuhU3ugR--6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;color: rgb(187, 190, 191); background-color: rgb(18, 19, 20); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;div style=&quot;line-height: 19px;&quot;&gt;&lt;span style=&quot;color: #79c0ff;&quot;&gt;SLEEP_STATE&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="50" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="u2pnZ5xjiEZJuhU3ugR--22" edge="1" parent="1" source="u2pnZ5xjiEZJuhU3ugR--7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.883;entryY=1.022;entryDx=0;entryDy=0;entryPerimeter=0;" target="u2pnZ5xjiEZJuhU3ugR--2">
+          <mxGeometry relative="1" x="-0.0734" as="geometry" />
+        </mxCell>
+        <mxCell id="u2pnZ5xjiEZJuhU3ugR--7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div style=&quot;color: rgb(187, 190, 191); background-color: rgb(18, 19, 20); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px; white-space: pre;&quot;&gt;&lt;span style=&quot;color: #79c0ff;&quot;&gt;FAULT_STATE&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="490" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="u2pnZ5xjiEZJuhU3ugR--12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Fault Occured" vertex="1">
+          <mxGeometry height="30" width="60" x="480" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="u2pnZ5xjiEZJuhU3ugR--13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Sleep time out occured" vertex="1">
+          <mxGeometry height="30" width="60" x="150" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="u2pnZ5xjiEZJuhU3ugR--15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="No fault present" vertex="1">
+          <mxGeometry height="30" width="60" x="410" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="u2pnZ5xjiEZJuhU3ugR--17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="VCU request" vertex="1">
+          <mxGeometry height="30" width="60" x="340" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="u2pnZ5xjiEZJuhU3ugR--19" edge="1" parent="1" source="u2pnZ5xjiEZJuhU3ugR--5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.4;entryY=0.956;entryDx=0;entryDy=0;entryPerimeter=0;" target="u2pnZ5xjiEZJuhU3ugR--3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u2pnZ5xjiEZJuhU3ugR--21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="VCU req to wakeup" vertex="1">
+          <mxGeometry height="30" width="60" x="220" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="u2pnZ5xjiEZJuhU3ugR--27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Precharge time expires&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="60" x="150" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="u2pnZ5xjiEZJuhU3ugR--31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Charger Req" vertex="1">
+          <mxGeometry height="30" width="60" x="640" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="u2pnZ5xjiEZJuhU3ugR--32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="charger disconnects" vertex="1">
+          <mxGeometry height="30" width="60" x="370" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="u2pnZ5xjiEZJuhU3ugR--33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="VCU req stops" vertex="1">
+          <mxGeometry height="30" width="60" x="230" y="340" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
